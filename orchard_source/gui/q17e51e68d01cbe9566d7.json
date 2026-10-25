@@ -1,0 +1,88 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q17e51e68d01cbe9566d7/qf6fd475e056380803c7e.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF000"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q17e51e68d01cbe9566d7/q8b8668811b86502ca7d9.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q17e51e68d01cbe9566d7/q3b44a8c8783dc67e9d11.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF002"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q17e51e68d01cbe9566d7/qb05d5b9c7257397b735d.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF003"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q17e51e68d01cbe9566d7/q5c015504abe25e9ff84e.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF004"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q17e51e68d01cbe9566d7/q9ffe29ed3c926a06b46c.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF005"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q17e51e68d01cbe9566d7/qc2d813f02bf982071920.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF006"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q17e51e68d01cbe9566d7/qcbed3152e539b3b2451d.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF007"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q17e51e68d01cbe9566d7/qc31e76c3d01b0a50633b.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF008"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q17e51e68d01cbe9566d7/q07855b0f46a6c96104fc.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF009"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q17e51e68d01cbe9566d7/q3c91ba787f2edb1fff0a.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF00A"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q17e51e68d01cbe9566d7/q7092e82b36f9ce0ee988.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF00B"]
+    }
+  ]
+}

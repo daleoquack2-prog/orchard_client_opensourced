@@ -1,0 +1,60 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q2f9405fcd8dcdd181139/q0a33950674014668375a.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF000"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q2f9405fcd8dcdd181139/qd1bbc9d254f3de1354b1.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q2f9405fcd8dcdd181139/q15006c02df51b894194b.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF002"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q2f9405fcd8dcdd181139/q184a94f0eabe8d316705.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF003"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q2f9405fcd8dcdd181139/q6c6f70fead39b1898153.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF004"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q2f9405fcd8dcdd181139/qbdea2d81aae6c58f36e7.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF005"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q2f9405fcd8dcdd181139/qd22bd9fd711d7fab2a69.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF006"]
+    },
+    {
+      "type": "bitmap",
+      "file": "qf5f6b488c53a02fb106e:font/qf1b8f0fad8bb96ebcc93/q2f9405fcd8dcdd181139/qf6624875f92deba64cbf.png",
+      "height": 7,
+      "ascent": 7,
+      "chars": ["\uF007"]
+    }
+  ]
+}

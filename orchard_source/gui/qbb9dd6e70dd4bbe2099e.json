@@ -1,0 +1,210 @@
+{
+    "targets": {
+        "qf5f6b488c53a02fb106e:t0": {},
+        "qf5f6b488c53a02fb106e:t1": {},
+        "qf5f6b488c53a02fb106e:t2": {},
+        "qf5f6b488c53a02fb106e:t3": {}
+    },
+    "passes": [
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "qf5f6b488c53a02fb106e:post/q833cd71b6aa5018c29e9",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "minecraft:entity_outline"
+                }
+            ],
+            "output": "qf5f6b488c53a02fb106e:t0",
+            "uniforms": {
+                "EdgeParams": [
+                    {
+                        "name": "Edge",
+                        "type": "vec4",
+                        "value": [
+                            1.8,
+                            0.55,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "minecraft:post/box_blur",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "minecraft:entity_outline",
+                    "bilinear": true
+                }
+            ],
+            "output": "qf5f6b488c53a02fb106e:t1",
+            "uniforms": {
+                "BlurConfig": [
+                    {
+                        "name": "BlurDir",
+                        "type": "vec2",
+                        "value": [
+                            1.0,
+                            0.0
+                        ]
+                    },
+                    {
+                        "name": "Radius",
+                        "type": "float",
+                        "value": 5.0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "minecraft:post/box_blur",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "qf5f6b488c53a02fb106e:t1",
+                    "bilinear": true
+                }
+            ],
+            "output": "qf5f6b488c53a02fb106e:t2",
+            "uniforms": {
+                "BlurConfig": [
+                    {
+                        "name": "BlurDir",
+                        "type": "vec2",
+                        "value": [
+                            0.0,
+                            1.0
+                        ]
+                    },
+                    {
+                        "name": "Radius",
+                        "type": "float",
+                        "value": 5.0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "minecraft:post/box_blur",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "qf5f6b488c53a02fb106e:t2",
+                    "bilinear": true
+                }
+            ],
+            "output": "qf5f6b488c53a02fb106e:t1",
+            "uniforms": {
+                "BlurConfig": [
+                    {
+                        "name": "BlurDir",
+                        "type": "vec2",
+                        "value": [
+                            1.0,
+                            0.0
+                        ]
+                    },
+                    {
+                        "name": "Radius",
+                        "type": "float",
+                        "value": 4.0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "minecraft:post/box_blur",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "qf5f6b488c53a02fb106e:t1",
+                    "bilinear": true
+                }
+            ],
+            "output": "qf5f6b488c53a02fb106e:t2",
+            "uniforms": {
+                "BlurConfig": [
+                    {
+                        "name": "BlurDir",
+                        "type": "vec2",
+                        "value": [
+                            0.0,
+                            1.0
+                        ]
+                    },
+                    {
+                        "name": "Radius",
+                        "type": "float",
+                        "value": 4.0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "qf5f6b488c53a02fb106e:post/qba87381c770c07a9b7a3",
+            "inputs": [
+                {
+                    "sampler_name": "Mask",
+                    "target": "minecraft:entity_outline"
+                },
+                {
+                    "sampler_name": "Line",
+                    "target": "qf5f6b488c53a02fb106e:t0"
+                },
+                {
+                    "sampler_name": "Halo",
+                    "target": "qf5f6b488c53a02fb106e:t2",
+                    "bilinear": true
+                }
+            ],
+            "output": "qf5f6b488c53a02fb106e:t3",
+            "uniforms": {
+                "LookParams": [
+                    {
+                        "name": "Look",
+                        "type": "vec4",
+                        "value": [
+                            0.0,
+                            0.22,
+                            5.5,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "qf5f6b488c53a02fb106e:t3"
+                }
+            ],
+            "output": "minecraft:entity_outline",
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
